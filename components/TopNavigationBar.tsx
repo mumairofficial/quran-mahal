@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import { Transition } from "@headlessui/react";
 
 function Nav() {
@@ -13,10 +14,11 @@ function Nav() {
           >
             {/* icons */}
             <div className="flex-shrink-0">
-              <img
-                className="h-8 w-8"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                alt="Workflow"
+              <Image
+                src="/assets/icons/quran-icon.png"
+                alt="logo"
+                width="64"
+                height="64"
               />
             </div>
             {/* menu items */}

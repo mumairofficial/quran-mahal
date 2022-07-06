@@ -7,7 +7,7 @@ interface IProps {
 
 const TopContactBanner = ({ contact }: PropsWithChildren<IProps>) => {
   return (
-    <div className="flex justify-center items-center bg-slate-900 text-white text-xs py-1">
+    <div className="flex justify-center items-center bg-green-900 text-white text-xs py-1">
       <div>
         {contact.address} {contact.city}
       </div>

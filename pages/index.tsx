@@ -5,6 +5,7 @@ import Image from "next/image";
 import { siteData } from "../data/data";
 import TopContactBanner from "../components/TopContactBanner";
 import TopNavigationBar from "../components/TopNavigationBar";
+import HeroSection from "../components/HeroSection";
 // import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -20,6 +21,8 @@ const Home: NextPage = () => {
         <TopContactBanner contact={siteData.contact} />
 
         <TopNavigationBar />
+
+        <HeroSection contact={siteData.contact} />
       </main>
 
       <footer></footer>
