@@ -2,11 +2,11 @@ import { IData } from "../models";
 
 export const siteData: IData = {
   contact: {
-    address: "",
-    city: "",
-    contactNo: "",
-    facebook: "",
-    whatsapp: "",
+    address: "Post Office Road, Madina Colony",
+    city: "Haroon Abad",
+    contactNo: "+92-348-6317823",
+    facebook: "http://web.facebook.com/profile.php?id=100651729373242",
+    whatsapp: "https://wa.me/0923486317823",
   },
   founders: [
     {

@@ -1,4 +1,4 @@
-interface IContact {
+export interface IContact {
   address: string;
   city: string;
   contactNo: string;
@@ -6,7 +6,7 @@ interface IContact {
   whatsapp: string;
 }
 
-interface ITeam {
+export interface ITeam {
   fullName: string;
   contact?: string;
   role: "Organizer" | "Contributor" | "Core Team" | "Founder";
