@@ -15,15 +15,15 @@ const ImageGallerySection = ({ gallery }: IProps) => {
             Images Gallery
           </h2>
         </div>
-        <div className="flex flex-wrap -m-1 md:-m-2">
+        <div className="flex flex-wrap -m-1 md:-m-2 mt-10">
           {gallery.map(({ imageSrc, label }) => (
-            <div key={imageSrc} className="flex flex-wrap w-1/3">
+            <div key={imageSrc} className="flex flex-wrap w-1/6">
               <div className="w-full p-1 md:p-2">
                 <Image
                   src={imageSrc}
                   alt={label}
                   width={"100%"}
-                  height="100%"
+                  height={"120px"}
                   layout="responsive"
                   objectFit="cover"
                   loading="lazy"
