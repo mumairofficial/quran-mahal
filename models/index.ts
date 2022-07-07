@@ -13,8 +13,14 @@ export interface ITeam {
   imageSrc: string;
 }
 
+export interface IGallery {
+  label?: string;
+  imageSrc: string;
+}
+
 export interface IData {
   contact: IContact;
   founders: ITeam[];
-  team: ITeam[];
+  contributors: ITeam[];
+  images: IGallery[];
 }

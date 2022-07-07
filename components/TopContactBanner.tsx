@@ -7,7 +7,10 @@ interface IProps {
 
 const TopContactBanner = ({ contact }: PropsWithChildren<IProps>) => {
   return (
-    <div className="flex justify-center items-center bg-green-900 text-white text-xs py-1">
+    <section
+      id="top-contact-bar"
+      className="flex justify-center items-center bg-blue-700 text-white text-xs py-1"
+    >
       <div>
         {contact.address} {contact.city}
       </div>
@@ -17,7 +20,7 @@ const TopContactBanner = ({ contact }: PropsWithChildren<IProps>) => {
       <div>
         <a href={contact.whatsapp}>WhatsApp {contact.contactNo}</a>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -25,31 +25,38 @@ function Nav() {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <a
-                  href="#"
+                  href="#top-contact-bar"
                   className="px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Home
                 </a>
 
                 <a
-                  href="#"
+                  href="#about-us"
                   className="px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About
                 </a>
 
                 <a
-                  href="#"
-                  className="px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Our Team
-                </a>
-
-                <a
-                  href="#"
+                  href="#image-gallery"
                   className="px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Gallery
+                </a>
+
+                <a
+                  href="#founders"
+                  className="px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Founders
+                </a>
+
+                <a
+                  href="#contributors"
+                  className="px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Contributors
                 </a>
 
                 <a
@@ -124,24 +131,38 @@ function Nav() {
               className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-slate-100"
             >
               <a
-                href="#"
+                href="#top-contact-bar"
                 className="block px-3 py-2 rounded-md text-base font-medium"
               >
                 Home
               </a>
 
               <a
-                href="#"
+                href="#about-us"
                 className="block px-3 py-2 rounded-md text-base font-medium"
               >
                 About
               </a>
 
               <a
-                href="#"
+                href="#image-gallery"
                 className="block px-3 py-2 rounded-md text-base font-medium"
               >
-                Out Team
+                Image Gallery
+              </a>
+
+              <a
+                href="#founders"
+                className="block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Founders
+              </a>
+
+              <a
+                href="#contributors"
+                className="block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Contributors
               </a>
 
               <a

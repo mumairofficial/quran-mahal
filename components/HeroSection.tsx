@@ -11,8 +11,8 @@ const HeroSection = ({ contact }: PropsWithChildren<IProps>) => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid md:grid-cols-2 sm:grid-cols-1 py-8 my-6">
-        <div className="md:text-left text-center flex items-center">
-          <div>
+        <div className="flex items-center">
+          <div className="md:text-left sm:text-center">
             <div className="text-6xl font-medium font-serif">Quran Mahal</div>
             <div className="text-xl mt-4">
               Our motive is just <strong>Respect the Quran</strong>
@@ -27,7 +27,7 @@ const HeroSection = ({ contact }: PropsWithChildren<IProps>) => {
             </div>
           </div>
         </div>
-        <div className="md:visible invisible flex justify-end">
+        <div className="mt-8 flex justify-end">
           <Image
             src="/assets/images/hero-image.jpg"
             alt="hero image"
