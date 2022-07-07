@@ -9,6 +9,8 @@ import AboutSection from "../components/AboutSection";
 import TeamSection from "../components/TeamSection";
 import ContributorsSection from "../components/ContributorsSection";
 import ImageGallerySection from "../components/ImageGallerySection";
+import ContactUsSection from "../components/ContactSection";
+import FooterSection from "../components/FooterSection";
 // import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -34,9 +36,13 @@ const Home: NextPage = () => {
         <TeamSection team={siteData.founders} />
 
         <ContributorsSection contributors={siteData.contributors} />
+
+        <ContactUsSection contact={siteData.contact} />
       </main>
 
-      <footer></footer>
+      <footer>
+        <FooterSection />
+      </footer>
     </>
   );
 };
