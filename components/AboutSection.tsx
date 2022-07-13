@@ -8,9 +8,9 @@ const AboutSection = () => {
     >
       <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+          <h1 className="text-white text-3xl md:text-4xl font-bold">
             Our Story
-          </h2>
+          </h1>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
             All the information about how Quran Mahal performing and how to get!
           </p>

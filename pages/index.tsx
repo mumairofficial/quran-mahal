@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import { siteData } from "../data/data";
-import TopContactBanner from "../components/TopContactBanner";
 import TopNavigationBar from "../components/TopNavigationBar";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
@@ -23,8 +22,6 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <TopContactBanner contact={siteData.contact} />
-
         <TopNavigationBar />
 
         <HeroSection contact={siteData.contact} />

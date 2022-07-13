@@ -7,6 +7,7 @@ export const siteData: IData = {
     contactNo: "+92-348-6317823",
     facebook: "http://web.facebook.com/profile.php?id=100651729373242",
     whatsapp: "https://wa.me/0923486317823",
+    instagram: "http://web.facebook.com/profile.php?id=100651729373242",
   },
   founders: [
     {
