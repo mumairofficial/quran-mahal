@@ -15,8 +15,8 @@ const ImageGallerySection = ({ gallery }: IProps) => {
             Images Gallery
           </h1>
         </div>
-        <div className="mt-12">
-          <div className="flex flex-wrap -m-1 md:-m-2">
+        <div className=" mt-16 grid lg:grid-cols-2 gape-20  ">
+          <div className="flex flex-wrap m-1 mr-5 md:-m-2">
             {gallery.map(({ imageSrc, label }) => (
               <div key={imageSrc} className="flex flex-wrap w-1/6">
                 <div className="w-full p-1 md:p-2">
@@ -33,21 +33,23 @@ const ImageGallerySection = ({ gallery }: IProps) => {
               </div>
             ))}
 
-{/* refactor this into side by side grid */}
-            <iframe
-              src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/%D9%82%D8%B1%D8%A2%D9%86-%D9%85%D8%AD%D9%84-100651729373242&width=600&colorscheme=dark&show_faces=light&border_color&stream=true&header=true&height=435"
-              scrolling="yes"
-              style={{
-                border: "none",
-                overflow: "hidden",
-                width: "600px",
-                height: "430px",
-                background: "white",
-                float: "left",
-              }}
-              frameBorder="0"
-            ></iframe>
+            {/* refactor this into side by side grid */}
           </div>
+          <iframe
+            className="items-center"
+            src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/%D9%82%D8%B1%D8%A2%D9%86-%D9%85%D8%AD%D9%84-100651729373242&width=600&colorscheme=dark&show_faces=light&border_color&stream=true&header=true&height=435"
+            scrolling="yes"
+            style={{
+              marginLeft: "50px",
+              border: "none",
+              overflow: "hidden",
+              width: "600px",
+              height: "430px",
+              background: "white",
+              float: "left",
+            }}
+            frameBorder="0"
+          ></iframe>
         </div>
       </div>
     </section>

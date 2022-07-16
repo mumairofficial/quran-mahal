@@ -18,15 +18,21 @@ const HeroSection = ({ contact }: PropsWithChildren<IProps>) => {
         loop
         muted
       />
-      <div className="absolutue w-full h-full top-0 left-0"></div>
+      <div className="absolutue w-full h-full top-0 left-0 "></div>
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4">
-        <div className="opacity-20 hover:opacity-100">
+        <div className="bg-blend-normal bg-indigo-50 w-70 opacity-60 rounded-lg drop-shadow-2xl">
           <h1 className="text-black text-3xl md:text-4xl font-bold">
-            Qurran Pages Collection
+            Quran Mahal
           </h1>
           <h2 className="py-4 text-black text-3xl font-bold">
-            Collection of Qurranic Pages from the city
+            Our motive is just <b>Respect the Quran</b>
           </h2>
+          <h3 className="text-black">
+            To Donate Collection Box or make small contribution{" "}
+          </h3>
+          <button className="bg-black rounded-lg py-4 px-4">
+            Call us at +92-348-6317823
+          </button>
         </div>
       </div>
     </div>
