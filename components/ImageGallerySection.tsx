@@ -37,7 +37,7 @@ const ImageGallerySection = ({ gallery }: IProps) => {
           </div>
           <iframe
             className="items-center"
-            src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/%D9%82%D8%B1%D8%A2%D9%86-%D9%85%D8%AD%D9%84-100651729373242&width=600&colorscheme=dark&show_faces=light&border_color&stream=true&header=true&height=435"
+            src="https://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/%D9%82%D8%B1%D8%A2%D9%86-%D9%85%D8%AD%D9%84-100651729373242&width=600&colorscheme=dark&show_faces=light&border_color&stream=true&header=true&height=435"
             scrolling="yes"
             style={{
               marginLeft: "50px",
