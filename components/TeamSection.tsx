@@ -14,7 +14,7 @@ const TeamSection = ({ team }: IProps) => {
     >
       <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
+          <h2 className="text-black text-3xl md:text-4xl font-bold">
             Founders
           </h2>
         </div>

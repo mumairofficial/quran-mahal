@@ -4,6 +4,7 @@ export interface IContact {
   contactNo: string;
   facebook: string;
   whatsapp: string;
+  instagram: string;
 }
 
 export interface ITeam {
